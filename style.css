@@ -93,4 +93,16 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .primary-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+  }
 }
